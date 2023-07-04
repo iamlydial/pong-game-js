@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./pong.js" type="module"></script>
+    <title>Pong</title>
+  </head>
+  <body>
+    <div class="score">
+      <div id="player-score">0</div>
+      <div id="computer-score">0</div>
+    </div>
+    <!-- creating both a class and an 
+        id to separate css and js and make the code cleaner -->
+    <div class="ball" id="ball"></div>
+    <div class="paddle left" id="player-paddle"></div>
+    <div class="paddle right" id="computer-paddle"></div>
+    <canvas width="700" height="500"></canvas>
+
+    <!-- type module refers to ES6 modules - the main idea is to import and 
+    export sections of code from and to different files this allows to break the code 
+into smaller pieces and so easier to understand  -->
+  </body>
+</html>
